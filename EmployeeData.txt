@@ -1,0 +1,32 @@
+Jill Anders,	MIS,		14759,	555-1279
+Henry Cosworth,	Sales,		45878,	555-5478
+Hans Denton,	Marketing,		55562,	555-1115
+Susan Fowler,	Accounting,	70078,	555-8897
+Geri Garrison,	Research,		72145,	555-8845
+Jean Honton,	Administration,	56411,	555-6565
+Kevin Lang,	Clerical,		39947,	555-1478
+Amber Wu,	Research,		65432,	555-1254
+Joe Hazelton,	Accounting,	87321,	555-0032
+Sun Chong,	MIS,		98211,	555-0054
+Julio Garcia,	Sales,		89543,	555-9812
+Stan SchingIman,	Research,		54123,	555-0199
+Jared Simmons,	MIS,		87231,	555-0112
+Bilal Hadad,	Accounting,	89321,	555-0155
+Debra Breamer,	MIS,		32098,	555-0049
+Myra Blake,	Administration,	98001,	555-0011
+Carl Fulton,	Clerical,		34009,	555-0095
+Gail Bradley,	MIS,		87112,	555-0099
+Stella Williams,	Sales,		76006,	555-0780
+Lindsay Schafer,	Consulting,	87012,	555-0008
+Gary Caldwell,	Sales,		13213,	555-0032
+Glen Carlson,	Sales,		67123,	555-0167
+Sean McDonald,	MIS,		45321,	555-0187
+Kavi Chander,	Sales,		34211,	555-0010
+Luis Torres,	Marketing,		34441,	555-0013
+Marta Winslow,	Administration,	78781,	555-0122
+Tran Truc,	Research,		90902,	555-0935
+Amy Jakebowski,	MIS,		88901,	555-0132
+Ambor Chang,	Research,		89892,	555-8999
+James Wei,	MIS,		87651,	555-1456
+
+	
