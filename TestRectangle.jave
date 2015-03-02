@@ -1,0 +1,38 @@
+//Nathaniel Smith
+//3-1-13
+//Objects and Classes
+//Constructors
+//Assign 4 & 5 will use OP
+
+class TestRectangle {
+	public static void main(String[] args){
+		//create an instance of Rectangle
+
+		Rectangle r1 = new Rectangle(12, 15);
+		Rectangle r2 = new Rectangle (5, 6);
+
+		System.out.println("The area of r1 is "
+		+ (r1.getArea()));
+
+		System.out.println("The area of r2 is "
+		+ (r2.getArea()));
+}
+}
+
+class Rectangle {
+	//instnce vari
+	double width;
+	double height;
+
+
+
+	//create a constructor
+	Rectangle (double w, double h){
+		width = w;
+		height = h;}
+
+		double getArea(){
+				return width * height;
+
+}
+}
