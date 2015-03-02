@@ -1,0 +1,66 @@
+//Nathaniel D. Smith
+//Date: 3-28-13
+//Assignment #3, problem 4
+//Train Ticket Calculator program
+
+import java.util.Scanner;
+
+class TicketCalculator{
+	public static void main(String[] args){
+		String city;
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Enter one of the stops <South Bend, Dunes, Palatine, Gary, East Chicago, or Hammond>:  ");
+		city = scan.nextLine();
+		System.out.println(" ");
+
+		if (city.equalsIgnoreCase("South Bend")){
+			CalcPrice(city, 11.75);
+		}
+		else if (city.equalsIgnoreCase("Dunes")){
+			CalcPrice(city, 7.25);
+		}
+		else if (city.equalsIgnoreCase("Palatine")){
+			CalcPrice(city, 6.75);
+		}
+		else if (city.equalsIgnoreCase("Gary")){
+			CalcPrice(city, 6.00);
+		}
+		else if (city.equalsIgnoreCase("East Chicago")){
+			CalcPrice(city, 5.75);
+		}
+		else if (city.equalsIgnoreCase("Hammond")){
+			CalcPrice(city, 5.25);
+		}
+		else{
+			System.out.println("Incorrect Input. Try Again." );
+		}
+		System.out.println("");
+		System.out.println("Press any key to continue . . . ");
+		scan.close();
+
+	}//end main()
+
+
+	//define a method that requires a stop name and single-ride price of the stop.
+	//The method prints the single-ride, ten-ride, monthly pass, and quarterly pass prices.
+
+	public static void CalcPrice(String stop, double oneRide) {
+		double tenRide = oneRide * 10;
+		tenRide -= tenRide * .02;
+
+		double monthRide = oneRide * 30;
+		monthRide -= monthRide * .05;
+
+		double quarterRide = oneRide * 90;
+		quarterRide -= quarterRide * .1;
+
+		System.out.println("Fares from " + stop + " to Chicago are: ");
+		System.out.println("");
+		System.out.format("Single Ride Ticket:    $%.2f %n",oneRide);
+		System.out.format("   Ten Ride Ticket:    $%.2f %n",tenRide);
+		System.out.format("    Monthly Ticket:    $%.2f %n",monthRide);
+		System.out.format("  Quarterly Ticket:    $%.2f %n",quarterRide);
+	}
+
+}//end TicketCalculator class
